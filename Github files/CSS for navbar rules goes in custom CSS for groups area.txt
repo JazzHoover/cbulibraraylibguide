@@ -1,0 +1,95 @@
+<style>
+/*changes font size for command bar on admin side*/
+#s-lg-admin-command-bar {font-size: 12px;}
+
+#s-lg-guide-tabs-title-bar {
+    border-top: 0px transparent;
+}
+
+
+/*adds background image behind search box*/ 
+#search-background {
+  background-image: url(https://libapps-ca.s3.amazonaws.com/accounts/138184/images/books.jpg);
+  background-repeat:no-repeat;
+  margin: 0px 10px
+    padding: 10% 0;
+  color #fff;
+}
+
+#search-info {background-color-rgba(0,0,0,0.6); padding-left: 5px;}
+
+/*adds padding to content area*/
+.s-lib-side-borders {
+	padding: 0px 15px;
+	}
+
+/* sets body font*/
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+  	color: #222222;
+  	font-size: 16px;
+  	
+  	}
+	
+/*tucks skiplink out of view*/
+#s-lg-public-skiplink {
+	top: -70px;
+	}
+	
+/*modifies menu text by hamburger menu, mobile view*/
+#menu-text {
+	padding-right: 5px; 
+	font-size: 18px;
+  	font-family: 'Roboto Condensed', sans-serif;
+  	color: #222222;
+	} 
+
+/*media queries for mobile, 767 or less*/
+@media (max-width: 767px) {
+  /*changes background color for expanded menus*/
+  #header-nav .navbar-nav .open .dropdown-menu {
+  background-color: #e8e8e8;
+            }
+  /*changes link color in expanded menus*/
+  #header-nav .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #222222;
+        font-size: 14px;
+      }
+  
+/*media queries for mobile, 767 or less*/
+@media (max-width: 767px) {
+  /*changes background color for expanded menus*/
+  #header-nav .navbar-nav .open .dropdown-menu {
+  background-color: #e8e8e8;
+            }
+  /*changes link color in expanded menus*/
+  #header-nav .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #222222;
+        font-size: 14px;
+      }
+
+
+    }
+
+/*media queries for non-mobile screens*/
+@media (min-width: 768px) {
+/*increases navbar font size*/
+#header-nav .navbar-default .navbar-nav>li>a {
+  font-size: 16px;}
+  
+/*increases font size in dropdowns*/
+#header-nav .dropdown-menu>li>a {
+font-size: 16px;
+}  
+}
+@media (min-width: 1200px) {
+/*increases navbar font size on largest screensize*/
+#header-nav .navbar-default .navbar-nav>li>a {
+  font-size: 18px;}
+}
+
+
+
+
+
+</style>

@@ -1,0 +1,27 @@
+<style>
+/*removes breadcrumbs*/
+#s-lib-bc {display: none;}
+
+/*removes guide name & description*/
+#s-lg-guide-name, #s-lg-guide-description {display: none;}
+
+/*adds padding between header/banner and page body/search box*/
+#s-lg-guide-header {
+padding-top: 10px; 
+}
+
+/*increases font size on box headers*/
+.s-lib-box .s-lib-box-title {
+font-size: 2em;
+}
+/*increases font size on tabs*/
+#s-lg-guide-tabs {
+font-size: 1.2em;
+font-weight: normal;
+}
+
+
+
+
+
+</style>
